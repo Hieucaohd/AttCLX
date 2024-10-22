@@ -165,3 +165,5 @@ cython_debug/
 python/
 python37/
 *.xlsx
+*.npy
+./stock_model.h5

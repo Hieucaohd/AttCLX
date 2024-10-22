@@ -13,10 +13,10 @@ from utils import *
 from model import lstm
 
 # GPU
-gpus = tf.config.experimental.list_physical_devices("GPU")
-if gpus:
-    tf.config.experimental.set_memory_growth(gpus[0], True)
-    tf.config.set_visible_devices([gpus[0]], "GPU")
+# gpus = tf.config.experimental.list_physical_devices("GPU")
+# if gpus:
+#     tf.config.experimental.set_memory_growth(gpus[0], True)
+#     tf.config.set_visible_devices([gpus[0]], "GPU")
 
 seed(1)
 tf.random.set_seed(1)
